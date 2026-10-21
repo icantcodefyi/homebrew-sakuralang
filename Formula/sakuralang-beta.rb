@@ -5,7 +5,7 @@
 class SakuralangBeta < Formula
   desc "Agent-first programming language: the sakura compiler and toolchain"
   homepage "https://www.sakuralang.com"
-  version "1.0.0-beta.1"
+  version "1.0.0-beta.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   # `sakura run` and `sakura test` execute programs on Node; the release is qualified on Node 26.
@@ -13,12 +13,12 @@ class SakuralangBeta < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/icantcodefyi/sakuralang/releases/download/v1.0.0-beta.1/sakuralang-1.0.0-beta.1-aarch64-apple-darwin.tar.gz"
-      sha256 "28d786b1f3eb5e9239be28a89ee5ec48ae6fe5db4876fd1607665522cb5b9401"
+      url "https://github.com/icantcodefyi/sakuralang/releases/download/v1.0.0-beta.2/sakuralang-1.0.0-beta.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0495e488e39341c8f63daf39c05186ae878aea93b674407e66410b8d264005ee"
     end
     on_intel do
-      url "https://github.com/icantcodefyi/sakuralang/releases/download/v1.0.0-beta.1/sakuralang-1.0.0-beta.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1f3648cd826bf83ac6bbbab9cf47c07f4cf4dbdf7a6190d0f8cdd65ee2516a00"
+      url "https://github.com/icantcodefyi/sakuralang/releases/download/v1.0.0-beta.2/sakuralang-1.0.0-beta.2-x86_64-apple-darwin.tar.gz"
+      sha256 "555e0dffe1c14f0c7b9b4c992df634d6566dce8e803f2309bc7e47801c54fb5e"
     end
   end
 
@@ -30,8 +30,8 @@ class SakuralangBeta < Formula
     end
 
     on_intel do
-      url "https://github.com/icantcodefyi/sakuralang/releases/download/v1.0.0-beta.1/sakuralang-1.0.0-beta.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "971379a16b464b5872ca874fb5692a622c6d5b156b77b0190730eaad22ad3f5f"
+      url "https://github.com/icantcodefyi/sakuralang/releases/download/v1.0.0-beta.2/sakuralang-1.0.0-beta.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5fbdd1492633727a49f7f17c8f3afff0b0f8d6955aaa6459e6d1a9b7086152ff"
     end
   end
 
